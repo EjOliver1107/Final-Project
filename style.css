@@ -1,0 +1,249 @@
+body {
+    background: #576432;
+}
+#navigation-bar {
+display: flex;
+justify-content: space-between;
+background: black;
+color: white;
+font-size: 15px;
+border: solid 2px white;
+padding:20px;
+font-size: 20px;
+}
+.streamer-nav-left {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.streamer-nav-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.streamer-nav-item {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.dropdown-menu {
+    background-color: black;
+    color:white;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+    display: none;
+    padding:15px;
+    position: absolute;
+    top:60px;
+    
+    width: 250px;
+    z-index: 10;
+}
+.dropdown-menu#menu-1 {
+    left: 60vw;
+}
+.dropdown-menu#menu-2 {
+    left: 68vw;
+}
+.dropdown-menu#menu-3 {
+    left: 75vw;
+}
+.streamer-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    margin-top: 10px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/seamless-realistic-wafer-pattern_88188-107.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border-radius: 25px;
+}
+.streamer-button {
+    padding: 20px;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    border: solid 2px white;
+    margin-bottom: 10px;
+    font-size:20px;
+}
+.streamer-button:hover {
+    color: black;
+    background:  #576432;
+}
+
+.job {
+    font-size: 30px;
+}
+.streamer-about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: wheat 2px solid;
+    background: rgb(252, 252, 252);
+    border-radius: 25px;
+}
+.about-text {
+    text-align:center;
+    font-size: 30px;
+
+}
+.title {
+    text-align:center;
+    width: 200px;
+    font-size: 30px;
+    background: #b59438;
+    padding:10px;
+    border: solid 2px white;
+    border-radius: 25px
+    
+}
+.streamer-snippet {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.twitch-video {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.twitch-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.donate {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.donate:hover {
+    background: white;
+    color: black;
+}
+.twitch-desc p {
+    font-size: 25px;
+}
+.status {
+    background: maroon;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.Social-media {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15vh;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding-top: 0px;
+}
+.social-icon {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw ;
+    justify-self: stretch;
+    text-align:center;
+}
+.youtube-stuff {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:2px white solid;
+    padding: 40px;
+    border-radius: 25px;
+}
+.videos {
+    display: grid;
+    grid-template-columns: 25vw 25vw;
+}
+.poggers {
+    width: 25px;
+}
+.Sm-size {
+    width: 50px;
+}
+.show {
+    display: block;
+}
+.home {
+    background-color: black;
+    border:none;
+    color:white;
+    font-size: 20px
+}
+.menu-item {
+    list-style: none;
+    
+}
+.friends {
+    font-size:20px;
+    color:white;
+    padding:10px
+}
+.friends:link {
+    color:white;
+    text-decoration: none;
+}
+.friends:hover {
+    background:white;
+    color:black;
+}
+  
+
+@media (min-width: 2476px) {
+    .dropdown-menu#menu-1 {
+        left: 73vw;
+    }
+    .dropdown-menu#menu-2 {
+        left: 79vw;
+    }
+    .dropdown-menu#menu-3 {
+        left: 83vw;
+    }
+    
+}
+ 
+
+/* @media (min-width: 383px) {
+    .streamer-intro {
+        width:486px;
+    }
+    .streamer-about {
+        width:542px;
+    }
+    .streamer-snippet {
+        width:544px;
+    }
+ .twitch-video {
+     width: 456px;
+     height: 336px;
+ }
+ .Social-media {
+     width:347px;
+ }
+ .youtube-stuff {
+     width:462px;
+ }
+ #navigation-bar {
+     display: none;
+ } 
+}
+@media (min-width:720px) {
+    .dropdown-menu#menu-1 {
+        left: 29vw;
+    }
+    .dropdown-menu#menu-2 {
+        left: 43vw;
+    }
+    .dropdown-menu#menu-3 {
+        left: 56vw;
+    }
+}
+ */
